@@ -1,0 +1,28 @@
+{
+  "name": "create-sourav-app",
+  "version": "1.0.0",
+  "description": "A CLI tool to create a new project scaffold from a GitHub repository template.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-sourav-app": "./index.js"
+  },
+  "keywords": [
+    "CLI",
+    "project-template",
+    "scaffold",
+    "npx"
+  ],
+  "author": "Sourav Bapari",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "degit": "^2.8.4",
+    "inquirer": "^12.1.0",
+    "ora": "^8.1.1",
+    "simple-git": "^3.27.0"
+  }
+}
