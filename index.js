@@ -51,7 +51,7 @@ const __dirname = path.dirname(__filename);
 
   try {
     // Clone the GitHub repo using degit
-    const emitter = degit("souravbapari1/sourav-repo", {
+    const emitter = degit("souravbapari1/repo-app", {
       cache: false,
       force: true,
       verbose: false,
